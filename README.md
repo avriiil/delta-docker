@@ -19,9 +19,8 @@ Follow the steps below to build an Apache Spark<sup>TM</sup> image with Delta La
 
 1. Clone this repo
 2. Navigate to the cloned folder
-3. Navigate to the `quickstart_docker` folder
-4. Open a bash shell (if on windows use git bash, WSL, or any shell configured for bash commands)
-5. Execute the following from the `static/quickstart_docker` folder
+3. Open a bash shell (if on windows use git bash, WSL, or any shell configured for bash commands)
+4. Execute the following from the `delta-docker` folder
 
    ```bash
    docker build -t delta_quickstart -f Dockerfile_delta_quickstart .
